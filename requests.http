@@ -1,0 +1,17 @@
+POST http://localhost:3000/places.json
+Content-Type: application/json
+
+{
+  "name": "Test name",
+  "address": "Test address"
+}
+###
+PATCH http://localhost:3000/places/4.json
+Content-Type: application/json
+
+{
+  "name": "riverside"
+}
+
+### CONTACTS DESTROY
+DELETE http://localhost:3000/places/4.json
